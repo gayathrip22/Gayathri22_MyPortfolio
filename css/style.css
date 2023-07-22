@@ -1,59 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
-* {
-    font-family: 'Ubuntu', sans-serif;
+*{
+font-family: 'Ubuntu', sans-serif;
 }
-
 body {
-    height: 495vh;
-    background-image: url("images/darkbacky.jpg");
+    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg8K2jT30h2eTVxMirstSuDZFxybxmGFf3eXBS910-k0c6_EwXzzmyJl8C63-ouGl0ej4&usqp=CAU");
+    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-
-}
-
-.bannerBgImage {
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    width: 100vw;
+  }
+  
+ 
+.bannerBgImage{
     height: 100vh;
-    background: url("images/themeback.jpg");
+    background: url("https://cdn.dribbble.com/users/2863841/screenshots/14305798/media/9956eef7194c2963bb038135f5c68cac.gif");
     background-size: cover;
     position: relative;
-
+    width: 100vw;
+    
 }
-
-.bannertext {
-    text-align: center;
+.bannertext{
+    text-align: right;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
-    color: rgb(191, 247, 9);
+    transform: translate(-50%, -50%);
+    color: white;
 }
-
-.bannerTitle {
-    font-size: 6rem;
+#Certificates{
+    padding: 50px;
+    padding-left: 90px;
 }
-
-.bannerDesc {
-    font-size: 3rem;
+.certificate-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
 }
-
-.card {
-    cursor: pointer;
+.certify{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
 }
+.certify img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.certify i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.layer{
+    width: 100%;
+    height: 0%;
+    background: linear-gradient(rgba(25, 109, 158, 0.6), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    
+}
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.certify:hover img{
+    transform: scale(1.1);
+}
+.certify:hover .layer{
+    height: 80%;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor:pointer;
 
-.card:hover {
-    background-color: orangered;
+}
+.card:hover{
+    background-color: lightsalmon;
     border: 3px solid black;
 }
-
-.BIcon {
+.bIcon{
     width: 100%;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-
+    text-align:center;
+    font-size: 40px;
 }
-
-.img-fluid:hover {
-    border: 4px solid black;
+.img-fluid:hover
+{
+    border: 3px solid black;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100vw;
+    padding: 13px;
 }
