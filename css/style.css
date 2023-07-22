@@ -6,7 +6,7 @@
 
 body {
     height: 495vh;
-    background-image: url("/images/darkbacky.jpg");
+    background-image: url("images/darkbacky.jpg");
     background-size: cover;
     position: relative;
 
@@ -14,7 +14,7 @@ body {
 
 .bannerBgImage {
     height: 100vh;
-    background: url("/images/themeback.jpg");
+    background: url("images/themeback.jpg");
     background-size: cover;
     position: relative;
 
