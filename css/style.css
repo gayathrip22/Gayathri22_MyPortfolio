@@ -3,7 +3,7 @@
 font-family: 'Ubuntu', sans-serif;
 }
 body {
-    background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg8K2jT30h2eTVxMirstSuDZFxybxmGFf3eXBS910-k0c6_EwXzzmyJl8C63-ouGl0ej4&usqp=CAU");
+    background-image:  url("images/darkbacky.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,7 +15,7 @@ body {
  
 .bannerBgImage{
     height: 100vh;
-    background: url("https://cdn.dribbble.com/users/2863841/screenshots/14305798/media/9956eef7194c2963bb038135f5c68cac.gif");
+    background: url("images/themeback.jpg");
     background-size: cover;
     position: relative;
     width: 100vw;
